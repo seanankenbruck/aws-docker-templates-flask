@@ -53,7 +53,7 @@ def get():
 
 @app.route('/ping', methods=['GET'])
 def ping():
-    return ""
+    return "pong"
 
 @app.route('/postgres-item', methods=['GET'])
 def itemget():
